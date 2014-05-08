@@ -1,0 +1,69 @@
+﻿C:\src\DigiCortex-1\private\External\apr-util\aprutil.vcxproj(68,5): warning MSB4011: "C:\Users\htan\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "C:\src\DigiCortex-1\private\External\apr-util\aprutil.vcxproj (61,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Creating apr_ldap.h from apr_ldap.hw
+  Creating apu.h from apu.hw
+  Creating apu_config.h from apu_config.hw
+  Creating apu_select_dbm.h from apu_select_dbm.hw
+  Creating apu_want.h from apu_want.hw
+  apr_brigade.c
+  apr_buckets.c
+  apr_buckets_alloc.c
+  apr_buckets_eos.c
+  apr_buckets_file.c
+  apr_buckets_flush.c
+  apr_buckets_heap.c
+  apr_buckets_mmap.c
+  apr_buckets_pipe.c
+  apr_buckets_pool.c
+  apr_buckets_refcount.c
+  apr_buckets_simple.c
+  apr_buckets_socket.c
+  apr_crypto.c
+  apr_md4.c
+  apr_md5.c
+  apr_passwd.c
+  apr_sha1.c
+  crypt_blowfish.c
+crypto\crypt_blowfish.c(894): warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+  getuuid.c
+  Generating Code...
+  Compiling...
+  uuid.c
+  apr_dbd.c
+  apr_dbd_freetds.c
+  apr_dbd_mysql.c
+  apr_dbd_odbc.c
+  apr_dbd_oracle.c
+  apr_dbd_pgsql.c
+  apr_dbd_sqlite2.c
+  apr_dbd_sqlite3.c
+  apr_dbm.c
+  apr_dbm_berkeleydb.c
+  apr_dbm_gdbm.c
+  apr_dbm_sdbm.c
+  apr_base64.c
+  apr_hooks.c
+  apr_ldap_init.c
+  apr_ldap_option.c
+  apr_ldap_rebind.c
+  apr_ldap_stub.c
+  apr_ldap_url.c
+  Generating Code...
+  Compiling...
+  apr_memcache.c
+  apr_date.c
+  apu_dso.c
+  apr_queue.c
+  apr_reslist.c
+  apr_rmm.c
+  apr_thread_pool.c
+  apu_version.c
+  sdbm.c
+  sdbm_hash.c
+  sdbm_lock.c
+  sdbm_pair.c
+  apr_strmatch.c
+  apr_uri.c
+  xlate.c
+  apr_xml.c
+  Generating Code...
+  aprutil.vcxproj -> C:\src\DigiCortex-1\private\External\apr-util\.\x86\Debug\aprutil.lib

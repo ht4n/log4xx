@@ -1,0 +1,299 @@
+﻿C:\src\DigiCortex-1\private\External\apr-util\libaprutil.vcxproj(67,5): warning MSB4011: "C:\Users\htan\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "C:\src\DigiCortex-1\private\External\apr-util\libaprutil.vcxproj (57,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+  Creating apr_ldap.h from apr_ldap.hw
+  Creating apu.h from apu.hw
+  Creating apu_config.h from apu_config.hw
+  Creating apu_select_dbm.h from apu_select_dbm.hw
+  Creating apu_want.h from apu_want.hw
+  apr_brigade.c
+  apr_buckets.c
+  apr_buckets_alloc.c
+  apr_buckets_eos.c
+  apr_buckets_file.c
+  apr_buckets_flush.c
+  apr_buckets_heap.c
+  apr_buckets_mmap.c
+  apr_buckets_pipe.c
+  apr_buckets_pool.c
+  apr_buckets_refcount.c
+  apr_buckets_simple.c
+  apr_buckets_socket.c
+  apr_crypto.c
+  apr_md4.c
+  apr_md5.c
+  apr_passwd.c
+  apr_sha1.c
+  crypt_blowfish.c
+crypto\crypt_blowfish.c(894): warning C4244: '=' : conversion from 'unsigned long' to 'char', possible loss of data
+  getuuid.c
+  Generating Code...
+  Compiling...
+  uuid.c
+  apr_dbd.c
+  apr_dbm.c
+  apr_dbm_sdbm.c
+  apr_base64.c
+  apr_hooks.c
+  apr_ldap_stub.c
+  apr_ldap_url.c
+  apr_memcache.c
+  apr_date.c
+  apu_dso.c
+  apr_queue.c
+  apr_reslist.c
+  apr_rmm.c
+  apr_thread_pool.c
+  apu_version.c
+  sdbm.c
+  sdbm_hash.c
+  sdbm_lock.c
+  sdbm_pair.c
+  Generating Code...
+  Compiling...
+  apr_strmatch.c
+  apr_uri.c
+  xlate.c
+  apr_xml.c
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1186,5): warning MSB8012: TargetPath(C:\src\DigiCortex-1\private\External\apr-util\.\Debug\libaprutil.dll) does not match the Linker's OutputFile property value (C:\src\DigiCortex-1\private\External\apr-util\Debug\libaprutil-1.dll). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1188,5): warning MSB8012: TargetName(libaprutil) does not match the Linker's OutputFile property value (libaprutil-1). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Link.OutputFile).
+     Creating library Debug\libaprutil-1.lib and object Debug\libaprutil-1.exp
+apr_brigade.obj : error LNK2019: unresolved external symbol __imp__apr_vformatter@16 referenced in function _apr_brigade_vprintf@20
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_palloc@8 referenced in function _pop_task
+apr_strmatch.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_queue.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_rmm.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_brigade.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_dbm_sdbm.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_hooks.obj : error LNK2001: unresolved external symbol __imp__apr_palloc@8
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_pool_cleanup_register@16 referenced in function _apr_sdbm_open@20
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_queue.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_brigade.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_buckets_alloc.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_buckets_mmap.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_buckets_pool.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_register@16
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_pool_cleanup_kill@12 referenced in function _apr_dbd_get_driver@12
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_kill@12
+apr_brigade.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_kill@12
+apr_buckets_alloc.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_kill@12
+apr_buckets_mmap.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_kill@12
+apr_buckets_pool.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_kill@12
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_pool_cleanup_null referenced in function _apr_reslist_create@40
+sdbm.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_queue.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_brigade.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_buckets_alloc.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_buckets_mmap.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_buckets_pool.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_null
+apr_buckets_alloc.obj : error LNK2019: unresolved external symbol __imp__apr_allocator_alloc@8 referenced in function _apr_bucket_alloc_create_ex
+apr_buckets_alloc.obj : error LNK2019: unresolved external symbol __imp__apr_allocator_free@8 referenced in function _apr_bucket_alloc_destroy
+apr_buckets_alloc.obj : error LNK2019: unresolved external symbol __imp__apr_pool_allocator_get@4 referenced in function _apr_bucket_alloc_create
+apr_buckets_alloc.obj : error LNK2019: unresolved external symbol __imp__apr_pool_abort_get@4 referenced in function _apr_bucket_alloc_create
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_pool_abort_get@4
+apr_buckets_file.obj : error LNK2019: unresolved external symbol __imp__apr_pool_is_ancestor@8 referenced in function _file_make_mmap
+apr_buckets_mmap.obj : error LNK2001: unresolved external symbol __imp__apr_pool_is_ancestor@8
+apr_buckets_file.obj : error LNK2019: unresolved external symbol __imp__apr_file_read@12 referenced in function _file_make_mmap
+apr_buckets_pipe.obj : error LNK2001: unresolved external symbol __imp__apr_file_read@12
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_file_read@12
+apr_buckets_file.obj : error LNK2019: unresolved external symbol __imp__apr_file_setaside@12 referenced in function _file_make_mmap
+apr_buckets_file.obj : error LNK2019: unresolved external symbol __imp__apr_file_seek@12 referenced in function _file_make_mmap
+sdbm.obj : error LNK2001: unresolved external symbol __imp__apr_file_seek@12
+apr_buckets_file.obj : error LNK2019: unresolved external symbol __imp__apr_file_pool_get@4 referenced in function _file_make_mmap
+apr_buckets_file.obj : error LNK2019: unresolved external symbol __imp__apr_mmap_create@28 referenced in function _file_make_mmap
+apr_buckets_mmap.obj : error LNK2019: unresolved external symbol __imp__apr_mmap_dup@12 referenced in function _mmap_bucket_cleanup
+apr_buckets_mmap.obj : error LNK2019: unresolved external symbol __imp__apr_mmap_delete@4 referenced in function _mmap_bucket_cleanup
+apr_buckets_mmap.obj : error LNK2019: unresolved external symbol __imp__apr_mmap_offset@16 referenced in function _apr_bucket_mmap_make@20
+apr_buckets_pipe.obj : error LNK2019: unresolved external symbol __imp__apr_file_close@4 referenced in function _apr_bucket_pipe_make@8
+sdbm.obj : error LNK2001: unresolved external symbol __imp__apr_file_close@4
+apr_buckets_pipe.obj : error LNK2019: unresolved external symbol __imp__apr_file_pipe_timeout_get@8 referenced in function _apr_bucket_pipe_make@8
+apr_buckets_pipe.obj : error LNK2019: unresolved external symbol __imp__apr_file_pipe_timeout_set@12 referenced in function _apr_bucket_pipe_make@8
+apr_buckets_socket.obj : error LNK2019: unresolved external symbol __imp__apr_socket_recv@12 referenced in function _apr_bucket_socket_make@8
+apr_buckets_socket.obj : error LNK2019: unresolved external symbol __imp__apr_socket_timeout_set@12 referenced in function _apr_bucket_socket_make@8
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_socket_timeout_set@12
+apr_buckets_socket.obj : error LNK2019: unresolved external symbol __imp__apr_socket_timeout_get@8 referenced in function _apr_bucket_socket_make@8
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_cpystrn@12
+apr_md5.obj : error LNK2019: unresolved external symbol __imp__apr_cpystrn@12 referenced in function _apr_md5_encode@16
+apr_sha1.obj : error LNK2001: unresolved external symbol __imp__apr_cpystrn@12
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_cpystrn@12
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_cpystrn@12
+getuuid.obj : error LNK2019: unresolved external symbol __imp__apr_generate_random_bytes@8 referenced in function _get_random_info
+getuuid.obj : error LNK2019: unresolved external symbol __imp__apr_time_now@0 referenced in function _get_system_time
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_time_now@0
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_time_now@0
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_time_now@0
+getuuid.obj : error LNK2019: unresolved external symbol __imp__apr_os_uuid_get@4 referenced in function _apr_uuid_get@4
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_thread_mutex_create@12 referenced in function _apr_reslist_create@40
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_create@12
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_create@12
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_create@12
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_create@12
+apr_queue.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_create@12
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_thread_mutex_lock@4 referenced in function _apr_reslist_cleanup_order_set@8
+apr_rmm.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_lock@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_lock@4
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_lock@4
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_lock@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_lock@4
+apr_queue.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_lock@4
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_thread_mutex_unlock@4 referenced in function _apr_reslist_cleanup_order_set@8
+apr_rmm.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_unlock@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_unlock@4
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_unlock@4
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_unlock@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_unlock@4
+apr_queue.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_unlock@4
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_pool_parent_get@4 referenced in function _apr_dbd_init@4
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_pool_parent_get@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_pool_parent_get@4
+apr_uri.obj : error LNK2001: unresolved external symbol __imp__apr_pstrdup@8
+apr_xml.obj : error LNK2019: unresolved external symbol __imp__apr_pstrdup@8 referenced in function _apr_xml_parser_geterror@12
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_pstrdup@8
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_pstrdup@8
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_pstrdup@8
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_pstrdup@8
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_snprintf referenced in function _apr_dbd_get_driver@12
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_snprintf
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_snprintf
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_snprintf
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_hash_make@4 referenced in function _apu_dso_load
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_hash_make@4
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_hash_make@4
+apr_hooks.obj : error LNK2001: unresolved external symbol __imp__apr_hash_make@4
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_hash_make@4
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_hash_set@16 referenced in function _apu_dso_load
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_hash_set@16
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_hash_set@16
+apr_hooks.obj : error LNK2001: unresolved external symbol __imp__apr_hash_set@16
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_hash_set@16
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_hash_get@12 referenced in function _apu_dso_load
+apr_dbd.obj : error LNK2001: unresolved external symbol __imp__apr_hash_get@12
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_hash_get@12
+apr_hooks.obj : error LNK2001: unresolved external symbol __imp__apr_hash_get@12
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_hash_get@12
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_hash_pool_get@4 referenced in function _apr_dbd_get_driver@12
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_hash_pool_get@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_hash_pool_get@4
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_atomic_read32@4 referenced in function _apr_dbd_init@4
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_read32@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_read32@4
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_atomic_set32@8 referenced in function _apr_dbd_init@4
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_set32@8
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_set32@8
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_atomic_inc32@4 referenced in function _apr_dbd_init@4
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_inc32@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_inc32@4
+apr_dbd.obj : error LNK2019: unresolved external symbol __imp__apr_atomic_dec32@4 referenced in function _apr_dbd_init@4
+apr_dbm.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_dec32@4
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_atomic_dec32@4
+apr_dbm_sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_pstrcat referenced in function _set_error
+sdbm.obj : error LNK2001: unresolved external symbol __imp__apr_pstrcat
+apr_uri.obj : error LNK2001: unresolved external symbol __imp__apr_pstrcat
+apr_dbm_sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_psprintf referenced in function _set_error
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_psprintf
+apr_hooks.obj : error LNK2019: unresolved external symbol __imp__apr_pool_create_ex@16 referenced in function _sort_hook
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_pool_create_ex@16
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_pool_create_ex@16
+apr_hooks.obj : error LNK2019: unresolved external symbol __imp__apr_pool_destroy@4 referenced in function _sort_hook
+apr_memcache.obj : error LNK2001: unresolved external symbol __imp__apr_pool_destroy@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_pool_destroy@4
+apr_hooks.obj : error LNK2019: unresolved external symbol __imp__apr_array_make@12 referenced in function _apr_hook_sort_register@8
+apu_dso.obj : error LNK2001: unresolved external symbol __imp__apr_array_make@12
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_array_make@12
+apr_hooks.obj : error LNK2019: unresolved external symbol __imp__apr_array_push@4 referenced in function _apr_hook_sort_register@8
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_array_push@4
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pool_clear@4 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pstrmemdup@12 referenced in function _apr_memcache_version@12
+apr_uri.obj : error LNK2001: unresolved external symbol __imp__apr_pstrmemdup@12
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_strtok@12 referenced in function _apr_memcache_getp@24
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_atoi64@4 referenced in function _stat_read_uint64
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_socket_create@20 referenced in function _mc_conn_construct
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_socket_close@4 referenced in function _mc_conn_destruct
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_socket_connect@8 referenced in function _conn_connect
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_sockaddr_info_get@24 referenced in function _conn_connect
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_socket_sendv@16 referenced in function _apr_memcache_getp@24
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_hash_first@8 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_hash_next@4 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_hash_this@16 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_hash_count@4 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pollset_create@16 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pollset_destroy@4 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pollset_add@8 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pollset_remove@8 referenced in function _apr_memcache_multgetp@16
+apr_memcache.obj : error LNK2019: unresolved external symbol __imp__apr_pollset_poll@20 referenced in function _apr_memcache_multgetp@16
+apr_date.obj : error LNK2019: unresolved external symbol __imp__apr_time_exp_get@8 referenced in function _apr_date_parse_http@4
+apr_date.obj : error LNK2019: unresolved external symbol __imp__apr_time_exp_gmt_get@8 referenced in function _apr_date_parse_rfc@4
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_dso_load@12 referenced in function _apu_dso_load
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_dso_unload@4 referenced in function _apu_dso_load
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_dso_sym@12 referenced in function _apu_dso_load
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_filepath_list_split@12 referenced in function _apu_dso_load
+apu_dso.obj : error LNK2019: unresolved external symbol __imp__apr_env_get@12 referenced in function _apu_dso_load
+apr_queue.obj : error LNK2019: unresolved external symbol __imp__apr_thread_mutex_destroy@4 referenced in function _queue_destroy
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_destroy@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_mutex_destroy@4
+apr_queue.obj : error LNK2019: unresolved external symbol __imp__apr_thread_cond_create@8 referenced in function _apr_queue_create@12
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_create@8
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_create@8
+apr_queue.obj : error LNK2019: unresolved external symbol __imp__apr_thread_cond_wait@8 referenced in function _apr_queue_push@8
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_wait@8
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_wait@8
+apr_queue.obj : error LNK2019: unresolved external symbol __imp__apr_thread_cond_signal@4 referenced in function _apr_queue_push@8
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_signal@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_signal@4
+apr_queue.obj : error LNK2019: unresolved external symbol __imp__apr_thread_cond_broadcast@4 referenced in function _apr_queue_interrupt_all@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_broadcast@4
+apr_queue.obj : error LNK2019: unresolved external symbol __imp__apr_thread_cond_destroy@4 referenced in function _queue_destroy
+apr_reslist.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_destroy@4
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_destroy@4
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_pool_pre_cleanup_register@12 referenced in function _apr_reslist_cleanup_order_set@8
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_pool_pre_cleanup_register@12
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_pool_cleanup_run@12 referenced in function _apr_reslist_destroy@4
+sdbm.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_run@12
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_pool_cleanup_run@12
+apr_reslist.obj : error LNK2019: unresolved external symbol __imp__apr_thread_cond_timedwait@16 referenced in function _apr_reslist_acquire@8
+apr_thread_pool.obj : error LNK2001: unresolved external symbol __imp__apr_thread_cond_timedwait@16
+apr_rmm.obj : error LNK2019: unresolved external symbol __imp__apr_proc_mutex_lock@4 referenced in function _apr_rmm_init@20
+apr_rmm.obj : error LNK2019: unresolved external symbol __imp__apr_proc_mutex_unlock@4 referenced in function _apr_rmm_init@20
+apr_rmm.obj : error LNK2019: unresolved external symbol __imp__apr_thread_rwlock_rdlock@4 referenced in function _apr_rmm_init@20
+apr_rmm.obj : error LNK2019: unresolved external symbol __imp__apr_thread_rwlock_wrlock@4 referenced in function _apr_rmm_init@20
+apr_rmm.obj : error LNK2019: unresolved external symbol __imp__apr_thread_rwlock_unlock@4 referenced in function _apr_rmm_init@20
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_sleep@8 referenced in function _thread_pool_cleanup
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_thread_create@20 referenced in function _apr_thread_pool_create@16
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_thread_exit@8 referenced in function _thread_pool_func@8
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_thread_join@8 referenced in function _trim_idle_threads
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_thread_detach@4 referenced in function _thread_pool_func@8
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_thread_data_get@12 referenced in function _apr_thread_pool_task_owner_get@8
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_thread_data_set@16 referenced in function _thread_pool_func@8
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_os_thread_get@8 referenced in function _wait_on_busy_threads
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_os_thread_current@0 referenced in function _wait_on_busy_threads
+apr_thread_pool.obj : error LNK2019: unresolved external symbol __imp__apr_os_thread_equal@8 referenced in function _wait_on_busy_threads
+sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_file_open@20 referenced in function _prep
+sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_file_read_full@16 referenced in function _getnext
+sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_file_write_full@16 referenced in function _setdbit
+sdbm.obj : error LNK2019: unresolved external symbol __imp__apr_file_unlock@4 referenced in function _database_cleanup
+sdbm_lock.obj : error LNK2001: unresolved external symbol __imp__apr_file_unlock@4
+sdbm_lock.obj : error LNK2019: unresolved external symbol __imp__apr_file_lock@8 referenced in function _apr_sdbm_lock@8
+sdbm_lock.obj : error LNK2019: unresolved external symbol __imp__apr_file_info_get@12 referenced in function _apr_sdbm_lock@8
+apr_uri.obj : error LNK2019: unresolved external symbol __imp__apr_pstrndup@12 referenced in function _apr_uri_parse_hostinfo@12
+apr_xml.obj : error LNK2001: unresolved external symbol __imp__apr_pstrndup@12
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_ParserCreate referenced in function _apr_xml_parser_create@4
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_SetElementHandler referenced in function _apr_xml_parser_create@4
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_SetCharacterDataHandler referenced in function _apr_xml_parser_create@4
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_SetDefaultHandler referenced in function _apr_xml_parser_create@4
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_SetUserData referenced in function _apr_xml_parser_create@4
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_Parse referenced in function _do_parse
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_GetErrorCode referenced in function _do_parse
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_ParserFree referenced in function _cleanup_parser
+apr_xml.obj : error LNK2019: unresolved external symbol _XML_ErrorString referenced in function _apr_xml_parser_geterror@12
+Debug\libaprutil-1.dll : fatal error LNK1120: 113 unresolved externals

@@ -1,0 +1,29 @@
+﻿  xmlparse.c
+xmlparse.c(1502): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1504): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1513): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1526): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1540): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1576): warning C4244: 'return' : conversion from '__int64' to 'long', possible loss of data
+xmlparse.c(1584): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1593): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(1594): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2125): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2130): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2316): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2321): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2342): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2351): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2851): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(2860): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(3676): warning C4244: '=' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(4760): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(4765): warning C4244: 'function' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(5651): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+xmlparse.c(5665): warning C4244: 'initializing' : conversion from '__int64' to 'int', possible loss of data
+  xmlrole.c
+  xmltok.c
+c:\src\digicortex-1\private\external\apr-util\xml\expat\lib\xmltok_impl.c(1717): warning C4244: 'return' : conversion from '__int64' to 'int', possible loss of data
+  Generating Code...
+C:\Program Files (x86)\MSBuild\Microsoft.Cpp\v4.0\V120\Microsoft.CppBuild.targets(1354,5): warning MSB8012: TargetPath(C:\src\DigiCortex-1\private\External\apr-util\xml\expat\lib\.\x64\Debug\xml.lib) does not match the Library's OutputFile property value (C:\src\DigiCortex-1\private\External\apr-util\xml\expat\lib\x64\LibD\xml.lib). This may cause your project to build incorrectly. To correct this, please make sure that $(OutDir), $(TargetName) and $(TargetExt) property values match the value specified in %(Lib.OutputFile).
+  xml.vcxproj -> C:\src\DigiCortex-1\private\External\apr-util\xml\expat\lib\.\x64\Debug\xml.lib

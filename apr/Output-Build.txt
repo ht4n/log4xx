@@ -1,0 +1,23 @@
+﻿Error occurred while restoring NuGet packages: System.ArgumentException: The path is not of a legal form.
+   at System.IO.Path.NormalizePath(String path, Boolean fullCheck, Int32 maxPathLength, Boolean expandShortPaths)
+   at System.IO.Path.GetDirectoryName(String path)
+   at NuGet.VisualStudio.VsUtility.GetNuGetSolutionFolder(Solution solution)
+   at NuGet.VsEvents.PackageRestorer.UsingOldPackageRestore(Solution solution)
+   at NuGet.VsEvents.PackageRestorer.BuildEvents_OnBuildBegin(vsBuildScope Scope, vsBuildAction Action).
+1>------ Build started: Project: apr, Configuration: Debug Win32 ------
+1>C:\src\DigiCortex-1\private\External\apr\apr.vcxproj(93,5): warning MSB4011: "C:\Users\htan\AppData\Local\Microsoft\MSBuild\v4.0\Microsoft.Cpp.Win32.user.props" cannot be imported again. It was already imported at "C:\src\DigiCortex-1\private\External\apr\apr.vcxproj (90,5)". This is most likely a build authoring error. This subsequent import will be ignored. 
+1>  Creating gen_test_char.exe and apr_escape_test_char.h
+1>  gen_test_char.c
+1>  Performing Custom Build Tools
+1>  Creating apr.h from apr.hw
+1>  apr_atomic.c
+1>  dso.c
+1>  apr_escape.c
+1>  buffer.c
+1>  copy.c
+1>  dir.c
+1>  fileacc.c
+1>  filedup.c
+1>  filepath.c
+1>  filepath_util.c
+1>  filestat.c
